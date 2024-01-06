@@ -1,8 +1,13 @@
 # Base NestJS Project with Prisma and PostgreSQL
 
 ## Description
-A base project in nestJS prset with postgreSQL and Prisma.
-Prefixed configService with yaml and generic typeing.
+A base project in nestJS with:
+Prisma
+OpenSwagger
+Docker/postgreSQL
+Configservice(with generic typefile)
+Folder structure
+Zod
 
 
 - **Configuration Service**: 
