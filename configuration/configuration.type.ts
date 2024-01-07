@@ -8,11 +8,14 @@ interface ConfigurationValuesInterface {
       url: string;
       port: number;
       database: string;
+      password: string;
+      user: string;
     };
     sqlite: {
       database: string;
     };
   };
+  prisma: { url: string };
 }
 
 export type ConfigurationInterface<

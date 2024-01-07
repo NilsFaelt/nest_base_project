@@ -6,8 +6,13 @@ db:
   postgres:
     url: 'localhost'
     port: 5432
-    database: 'yaml-db'
+    database: 'nest_base'
+    password: 'postgres'
+    user: 'postgres'
 
   sqlite:
     database: 'sqlite.db'
-    
+
+prisma:
+  url: 'postgresql://postgres:postgres@localhost:5432/nest_base?schema=public'
+       

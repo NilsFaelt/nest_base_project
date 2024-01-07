@@ -5,9 +5,9 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
     .setTitle('Nest base project')
-    .setDescription('Nils nase project')
+    .setDescription('Nest base project')
     .setVersion('1.0')
-    .addTag('Nils')
+    .addTag('Nest Base Project')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
